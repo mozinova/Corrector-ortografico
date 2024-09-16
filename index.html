@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>corrector Ortográfico AI</title>
   <meta name="description" content="Corrector ortográfico AI, por Daniel Mucamba">
-  <link rel="stylesheet" href="/dist/font_awesome/css/all.min.css">
-  <link rel="stylesheet" href="/dist/font_awesome/css/solid.min.css">
-  <link rel="stylesheet" href="/dist/font_awesome/css/fontawesome.min.css">
-  <link rel="stylesheet" href="/dist/css/bootstrap.min.css">
-  <link rel="shortcut icon" type="image/jpeg" href="/res7/OIP.jpeg-4.jpg">
+  <link rel="stylesheet" href="./dist/font_awesome/css/all.min.css">
+  <link rel="stylesheet" href="./dist/font_awesome/css/solid.min.css">
+  <link rel="stylesheet" href="./dist/font_awesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+  <link rel="shortcut icon" type="image/jpeg" href="./res7/OIP.jpeg-4.jpg">
   <style>
     .editor{
       width:100%;
@@ -92,11 +92,10 @@
     <p>Criado por<a href="https://github.io/mozinova" class="text-white"> Daniel Mucamba</a>
   </footer>
 </div>
-<script type="text/javascript" src="/res7/marked@14.1.2/marked.min.js"></script>
-<script type="text/javascript" src="cdn_modules/socket.io@4.7.5/socket.io.min.js"></script>
-<script src="/dist/jquery.min.js"></script>
-<script src="/dist/js/bootstrap.bundle.min.js"></script>
-<script src="/gerar.js"></script>
+<script type="text/javascript" src="./res7/marked@14.1.2/marked.min.js"></script>
+<script src="./dist/jquery.min.js"></script>
+<script src="./dist/js/bootstrap.bundle.min.js"></script>
+<script src="./gerar.js"></script>
 <script>
   function sendMsg(msg=$("#text").val()){
     $("#text").val('')
@@ -124,11 +123,11 @@
     const ids={
       user:`
    <span class="id">
-     <img src="/res7/OIP-3.webp" alt="chatbot"> usuário 
+     <img src="./res7/OIP-3.webp" alt="chatbot"> usuário 
    </span>  `,
    chatbot:`
    <span class="id">
-     <img src="/res7/OIP.jpeg-4.jpg" alt="chatbot"> chatbot
+     <img src="./res7/OIP.jpeg-4.jpg" alt="chatbot"> chatbot
    </span>  `
     };
     var msg=`<div class="msg" onclick="copiarParaClipboard(text)">
